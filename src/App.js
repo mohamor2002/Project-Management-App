@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter,Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
+import SharedLayout from './Pages/SharedLayout/SharedLayout';
 import Error from './Pages/Error/Error';
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
       <Routes>
           <Route index element={<Home/>} />
           <Route path='about' element={<About/>}/>
-          <Route path='*' element={<Error/>}/>
+          <Route path=':id' element={<Error/>}/>
       </Routes>
     </BrowserRouter>
     </div>
