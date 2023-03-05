@@ -1,0 +1,10 @@
+- Home Page
+- Inscription/Connexion 
+- Create a space ( project )
+- Invite other users
+- Add/Edit/Delete Task Lists and Tasks
+- Access My tasks page
+- View Task Details
+- Edit Task's status (to-do, in progress, complete)
+- View Gantt Diagram 
+- View Tasks Chart by users.
