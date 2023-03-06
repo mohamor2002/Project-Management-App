@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 
 function Home(props) {
+    const i=1
     const [name,setName] = useState(true)
     function updateNum(){
         setName(!name)
