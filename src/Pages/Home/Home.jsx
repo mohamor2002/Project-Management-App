@@ -8,11 +8,22 @@ function Home(props) {
     function updateNum(){
         setCount(count+1)
     }
+
+    const [name,setName]=useState(true)
+    function updateName(){
+        setName(!name)
+    }
+    function print(){
+    if(name) {
+        return 'fadhel'
+    }
+    else{
+        return 'mkhkhkhkhk'
+    }}
     return (
         <div>
             <NavigationBar title="Fadhel"></NavigationBar>
-            <button onClick={updateNum}>+1+1+12°02864730</button>
-            <div>{count}</div>
+            <button onClick={updateName}>{print()}</button>
         </div>
     );
 }
