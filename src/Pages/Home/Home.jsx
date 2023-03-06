@@ -13,6 +13,7 @@ function Home(props) {
         <div>
             <NavigationBar title="Fadhel"></NavigationBar>
             <button onClick={updateNum}>{name?'moh':'fadhel'}</button>
+            <button onClick={} ></button>
         </div>
     );
 }
