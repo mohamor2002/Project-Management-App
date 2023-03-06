@@ -4,15 +4,14 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 
 function Home(props) {
-    const [count,setCount] = useState(0)
+    const [name,setName] = useState(true)
     function updateNum(){
-        setCount(count+1)
+        setName(!name)
     }
     return (
         <div>
             <NavigationBar title="Fadhel"></NavigationBar>
-            <button onClick={updateNum}>+1+12°02864730</button>
-            <div>{count}</div>
+            <button onClick={updateNum}>{name?'moh':'fadhel'}</button>
         </div>
     );
 }
