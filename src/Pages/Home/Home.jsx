@@ -11,7 +11,7 @@ function Home(props) {
     return (
         <div>
             <NavigationBar title="Fadhel"></NavigationBar>
-            <button onClick={updateNum}>+1+1+12°02864730</button>
+            <button onClick={updateNum}>+1+12°02864730</button>
             <div>{count}</div>
         </div>
     );
