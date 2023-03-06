@@ -1,9 +1,11 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 
 function Error(props) {
+    const {id} =useParams()
     return (
         <div>
-            Error
+            {id}
         </div>
     );
 }
